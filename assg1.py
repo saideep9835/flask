@@ -5,12 +5,12 @@ class Bank_Account:
         print("Hello!!! Welcome to the Deposit & Withdrawal Machine")
   
     def deposit(self):
-            amount=float(input("Enter amount to be Deposited: "))
+            amount=6799.88
             self.balance += amount
             print(" Amount Deposited: ",amount)
   
     def withdraw(self):
-        amount = float(input("Enter amount to be Withdrawn: "))
+        amount = 8976.00
         if (self.balance>=amount):
             self.balance-=amount
             print(" You Withdrew: ", amount)
